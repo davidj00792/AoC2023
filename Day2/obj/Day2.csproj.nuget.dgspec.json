@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\test\\test.fsproj": {}
+    "c:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\Day2\\Day2.csproj": {}
   },
   "projects": {
-    "c:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\test\\test.fsproj": {
+    "c:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\Day2\\Day2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\test\\test.fsproj",
-        "projectName": "test",
-        "projectPath": "c:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\test\\test.fsproj",
+        "projectUniqueName": "c:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\Day2\\Day2.csproj",
+        "projectName": "Day2",
+        "projectPath": "c:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\Day2\\Day2.csproj",
         "packagesPath": "C:\\Users\\xjanc\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\test\\obj\\",
+        "outputPath": "c:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\Day2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xjanc\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -20,7 +20,6 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.202\\FSharp\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -28,19 +27,16 @@
             "targetAlias": "net7.0",
             "projectReferences": {}
           }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
         }
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "FSharp.Core": {
-              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
-              "target": "Package",
-              "version": "[7.0.200, )",
-              "generatePathProperty": true
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -53,9 +49,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -1,0 +1,6 @@
+mkdir newSolution 
+cd newSolution
+dotnet new sln
+dotnet new console -n YourConsoleAppName
+dotnet sln add YourConsoleAppName/YourConsoleAppName.csproj
+

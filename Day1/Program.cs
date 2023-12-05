@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Text.RegularExpressions;
 using System;
 using System.Collections.Generic;
+ 
 
 //string rootFolder =  "C:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\Day1";
 string textFile = "C:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\Day1\\Data.txt";
@@ -32,14 +33,13 @@ if (File.Exists(textFile)) {
         */
 
         number = FindNumbersInString(line);   
-        Console.WriteLine(number);
         totalValue += int.Parse(number);
     }
 }
 
 //Result
 Console.WriteLine(totalValue);
-//57325 wrong
+
 
 //Functions
 static string FindNumbersInString(string input)
@@ -48,38 +48,37 @@ static string FindNumbersInString(string input)
     // Define the regex pattern
     string pattern = @"(?:one|two|three|four|five|six|seven|eight|nine|1|2|3|4|5|6|7|8|9)";
 
-    // Create a regex object
+    // Create regex to find number from left and right
     Regex regexLeft = new Regex(pattern, RegexOptions.IgnoreCase);
     Regex regexRight = new Regex(pattern, RegexOptions.IgnoreCase | RegexOptions.RightToLeft);
 
-    // Find all matches
-   string leftNumber = regexLeft.Match(input).Value.Length == 1 ? regexLeft.Match(input).Value : ReplaceWordsWithNumbers(regexLeft.Match(input).Value);
-   string rightNumber = regexRight.Match(input).Value.Length == 1 ? regexRight.Match(input).Value : ReplaceWordsWithNumbers(regexRight.Match(input).Value);
+    // Find matches and convert them to number if appliable
+    string leftNumber = regexLeft.Match(input).Value.Length == 1 ? regexLeft.Match(input).Value : ReplaceWordsWithNumbers(regexLeft.Match(input).Value);
+    string rightNumber = regexRight.Match(input).Value.Length == 1 ? regexRight.Match(input).Value : ReplaceWordsWithNumbers(regexRight.Match(input).Value);
 
-    // Print the matche
     return leftNumber+rightNumber;
 }
 
 
 static string ReplaceWordsWithNumbers(string input)
 {
-   Dictionary<string, string> wordNumberMap = new Dictionary<string, string>
-        {
-            {"one", "1"},
-            {"two", "2"},
-            {"three", "3"},
-            {"four", "4"},
-            {"five", "5"},
-            {"six", "6"},
-            {"seven", "7"},
-            {"eight", "8"},
-            {"nine", "9"}
-        };
+    Dictionary<string, string> wordNumberMap = new Dictionary<string, string>
+    {
+        {"one", "1"},
+        {"two", "2"},
+        {"three", "3"},
+        {"four", "4"},
+        {"five", "5"},
+        {"six", "6"},
+        {"seven", "7"},
+        {"eight", "8"},
+        {"nine", "9"}
+    };
 
-    // Construct the regular expression pattern for matching the words
+    // Define pattern
     string pattern = @"\b(" + string.Join("|", wordNumberMap.Keys) + @")\b";
 
-    // Use Regex.Replace to replace matched words with their numeric values
+    // Use Regex to replace  words with their numeric values
     string result = Regex.Replace(input, pattern, match => wordNumberMap[match.Value.ToLower()]);
 
     return result;
