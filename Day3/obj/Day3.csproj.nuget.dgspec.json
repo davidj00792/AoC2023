@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\Day2\\Day2.csproj": {}
+    "C:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\Day3\\Day3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\Day2\\Day2.csproj": {
+    "C:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\Day3\\Day3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\Day2\\Day2.csproj",
-        "projectName": "Day2",
-        "projectPath": "C:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\Day2\\Day2.csproj",
+        "projectUniqueName": "C:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\Day3\\Day3.csproj",
+        "projectName": "Day3",
+        "projectPath": "C:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\Day3\\Day3.csproj",
         "packagesPath": "C:\\Users\\xjanc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\Day2\\obj\\",
+        "outputPath": "C:\\Users\\xjanc\\OneDrive\\Plocha\\AdventOfCode2023\\Day3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xjanc\\AppData\\Roaming\\NuGet\\NuGet.Config"
