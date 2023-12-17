@@ -47,7 +47,6 @@ foreach (string line in lines) {
     index++;
 }
 
-/* part 1
 foreach (int seed in seeds) {
     //get corresponding value and add it to locationNumbers
     double positon = seed;
@@ -59,15 +58,12 @@ foreach (int seed in seeds) {
         }
     }
 }
-*/
-
-
 
 
 //implement new part to get lowest number for each seed
 
 //Results
-Console.WriteLine(loc);
+Console.WriteLine(locationNumbers.Min());
 
 
 //Functions 
@@ -104,12 +100,12 @@ public class Section {
         Lines = lines;
     }
 
+
     internal double GetLocation(double positon)
     {
         string pattern = @"(\d+)";
         double location = positon;
         foreach (string line in Lines) {
-            new numberrange
             MatchCollection locationsColl = Regex.Matches(line, pattern);
             List<double> locations = GetNumbers(locationsColl);
 
