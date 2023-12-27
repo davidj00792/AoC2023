@@ -1,0 +1,15 @@
+C:\Users\xjanc\OneDrive\Plocha\AdventOfCode2023\Day8\bin\Debug\net7.0\Day8.exe
+C:\Users\xjanc\OneDrive\Plocha\AdventOfCode2023\Day8\bin\Debug\net7.0\Day8.deps.json
+C:\Users\xjanc\OneDrive\Plocha\AdventOfCode2023\Day8\bin\Debug\net7.0\Day8.runtimeconfig.json
+C:\Users\xjanc\OneDrive\Plocha\AdventOfCode2023\Day8\bin\Debug\net7.0\Day8.dll
+C:\Users\xjanc\OneDrive\Plocha\AdventOfCode2023\Day8\bin\Debug\net7.0\Day8.pdb
+C:\Users\xjanc\OneDrive\Plocha\AdventOfCode2023\Day8\obj\Debug\net7.0\Day8.csproj.AssemblyReference.cache
+C:\Users\xjanc\OneDrive\Plocha\AdventOfCode2023\Day8\obj\Debug\net7.0\Day8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xjanc\OneDrive\Plocha\AdventOfCode2023\Day8\obj\Debug\net7.0\Day8.AssemblyInfoInputs.cache
+C:\Users\xjanc\OneDrive\Plocha\AdventOfCode2023\Day8\obj\Debug\net7.0\Day8.AssemblyInfo.cs
+C:\Users\xjanc\OneDrive\Plocha\AdventOfCode2023\Day8\obj\Debug\net7.0\Day8.csproj.CoreCompileInputs.cache
+C:\Users\xjanc\OneDrive\Plocha\AdventOfCode2023\Day8\obj\Debug\net7.0\Day8.dll
+C:\Users\xjanc\OneDrive\Plocha\AdventOfCode2023\Day8\obj\Debug\net7.0\refint\Day8.dll
+C:\Users\xjanc\OneDrive\Plocha\AdventOfCode2023\Day8\obj\Debug\net7.0\Day8.pdb
+C:\Users\xjanc\OneDrive\Plocha\AdventOfCode2023\Day8\obj\Debug\net7.0\Day8.genruntimeconfig.cache
+C:\Users\xjanc\OneDrive\Plocha\AdventOfCode2023\Day8\obj\Debug\net7.0\ref\Day8.dll
